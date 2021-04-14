@@ -1,0 +1,145 @@
+footer {
+  color: white;
+  background: rgb(14, 14, 14) !important;
+}
+
+body {
+  background: linear-gradient(rgba(29, 30, 37, 0.45), rgba(26, 28, 39, 0.45)), rgba(0, 0, 0, 0.55) url("../assets/img/short-faces-pixie.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+footer strong {
+  color: turquoise;
+}
+
+footer a {
+  color: turquoise;
+}
+
+.title {
+  color: white;
+  font-weight: 800;
+  font-size: 4rem;
+  font-family: 'Nunito Sans', sans-serif;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+.subtitle {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+.navbar.navigate {
+  background-color: rgba(255, 255, 255, 0.80);
+}
+
+.hero.header {
+  background: linear-gradient(rgba(29, 30, 37, 0.50), rgba(26, 28, 39, 0.50)), rgba(0, 0, 0, 0.55) url("../assets/img/short-faces-pixie.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero .title {
+  font-family: Georgia, serif;
+  /*transform: rotate(-5deg);*/
+  font-size: 5rem;
+  color: #E6BE8A;
+}
+
+.hero .subtitle {
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+#parallax-0 {
+  background: url(https://source.unsplash.com/featured/?stylist);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #CD853F;
+}
+
+#parallax-0 hr {
+  background: #CD853F;
+}
+
+#parallax-1 {
+  background: url(https://source.unsplash.com/featured/?salon);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #CD853F;
+}
+
+#parallax-1 hr {
+  background: #CD853F;
+}
+
+#parallax-2 {
+  background: url(https://source.unsplash.com/featured/?venue);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #CD853F;
+}
+
+#parallax-2 hr {
+  background: #CD853F;
+}
+
+#parallax-3 {
+  background: url(https://source.unsplash.com/featured/?cosmetics);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #CD853F;
+}
+
+#parallax-3 hr {
+  background: #CD853F;
+}
+
+#parallax-4 {
+  background: url(https://source.unsplash.com/featured/?men);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid #CD853F;
+}
+
+#parallax-4 hr {
+  background: #CD853F;
+}
+
+.label {
+  color: white;
+}
+
+input {
+  background: transparent !important;
+  border: 1px solid turquoise !important;
+  color: white !important;
+}
+
+input::placeholder {
+  color: white !important;
+}
