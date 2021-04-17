@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/img/web-icon.ico">
   <title>Of the Woman - For men</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
@@ -20,13 +21,13 @@
     <section class="hero is-large header">
       <!--Start Nav Bar-->
       <div class="hero-head">
-        <nav class="navbar is-fixed-top navigate">
+        <nav class="navbar is-fixed-top is-black navigate">
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item" href="index.html">
-                <img src="https://bulma.io/images/bulma-logo.png" alt="logo" width="112" height="28">
+                <img src="assets/img/bulma-logo-white.png" alt="Nataly: Beauty Salon" width="112" height="28">
               </a>
-              <span class="navbar-burger" data-target="navbarMenuHeroB">
+              <span class="navbar-burger burger" data-target="navbarMenuHeroB">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -56,15 +57,16 @@
                     </a>
                   </div>
                 </div>
-                <div class="navbar-item">
-                  <div class="buttons">
-                    <a href="https://facebook.com" target="_blank" class="button is-dark is-medium"><i
-                        class="fab fa-facebook-square"></i></a>
-                    <a href="https://instagram.com" target="_blank" class="button is-dark is-medium"><i
-                        class="fab fa-instagram-square"></i></a>
-                    <a href="https://twitter.com" target="_blank" class="button is-dark is-medium"><i
-                        class="fab fa-whatsapp-square"></i></a>
-                  </div>
+                <div class="navbar-item">                  
+                    <a class="navbar-item" href="https://fb.com">
+                      <img src="assets/img/facebook.png">
+                    </a>
+                    <a class="navbar-item" href="https://instagram.com">
+                      <img src="assets/img/instagram.png">
+                    </a>
+                    <a class="navbar-item" href="https://goo.gl/maps/Zws9M4qXX4K6Q3FF9">
+                      <img src="assets/img/mapas-de-google.png">
+                    </a>                  
                 </div>
               </div>
             </div>
@@ -75,7 +77,8 @@
       <!-- Begin Hero Content-->
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">Servicios</h1>
+          <h1 class="subtitle is-size-3-mobile">Nataly JN</h1>
+          <h2 class="title is-size-1-mobile">Servicios</h2>
         </div>
       </div>
       <!-- End Hero Menu -->
@@ -87,20 +90,18 @@
   <div class="hero">
     <div class="hero-body">
       <div class="container">
-        <div class="tabs is-toggle is-fullwidth is-large" id="tabs">
+        <div class="tabs is-toggle is-toggle-rounded is-fullwidth is-large" id="tabs">
           <ul>
             <li class="is-active" data-tab="1">
               <a>
-                <figure class="image is-128x128">
-                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                </figure>           
+                <span class="icon  is-large"><i class="fas fa-vihara"></i></i></span>
+                <span>Corte</span>
               </a>
             </li>
-            <li data-tab="2">
+            <li data-tab="3">
               <a>
-                <figure class="image is-128x128">
-                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                </figure>              
+                <span class="icon is-large"><i class="fas fa-air-freshener"></i></i></span>
+                <span>Tinte</span>
               </a>
             </li>
             <li data-tab="3">
@@ -111,8 +112,9 @@
             </li>
             <li data-tab="4">
               <a>
-                <span class="icon  is-large"><i class="fas fa-air-freshener"></i></span>
-                <span>Cambio Imagen</span>
+                <figure class="image is-128x128">
+                  <img class="is-rounded" src="assets/img/face.jpg">
+                </figure>           
               </a>
             </li>
           </ul>
@@ -269,7 +271,9 @@
   </footer>
 
   <script src="js/jquery.min.js"></script>
+  <script src="js/galery.js"></script>
   <script src="js/servicios.js"></script>
+  <script src="js/nav-burger.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
