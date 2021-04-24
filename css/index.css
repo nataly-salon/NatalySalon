@@ -4,7 +4,7 @@ footer {
 }
 
 body {
-  background: linear-gradient(rgba(29, 30, 37, 0.45), rgba(26, 28, 39, 0.45)), rgba(0, 0, 0, 0.55) url("../assets/img/short-faces-pixie.jpg") no-repeat;
+  background: linear-gradient(rgba(29, 30, 37, 0.45), rgba(26, 28, 39, 0.45)), rgba(0, 0, 0, 0.55) url("../assets/img/background_celle.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -43,7 +43,7 @@ hr.content-divider {
 }
 
 .hero.header {
-  background: linear-gradient(rgba(29, 30, 37, 0.50), rgba(26, 28, 39, 0.50)), rgba(0, 0, 0, 0.55) url("../assets/img/short-faces-pixie.jpg") no-repeat;
+  background: linear-gradient(rgba(29, 30, 37, 0.50), rgba(26, 28, 39, 0.50)), rgba(0, 0, 0, 0.55) url("../assets/img/background_celle.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -66,7 +66,7 @@ hr.content-divider {
 }
 
 #parallax-0 {
-  background: url(https://source.unsplash.com/featured/?stylist);
+  background: url(../assets/img/about_us_section.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ hr.content-divider {
 }
 
 #parallax-1 {
-  background: url(https://source.unsplash.com/featured/?salon);
+  background: url(../assets/img/servicios_section.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ hr.content-divider {
 }
 
 #parallax-2 {
-  background: url(https://source.unsplash.com/featured/?venue);
+  background: url(../assets/img/proyectos_section.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ hr.content-divider {
 }
 
 #parallax-3 {
-  background: url(https://source.unsplash.com/featured/?cosmetics);
+  background: url(../assets/img/productos_section.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ hr.content-divider {
 }
 
 #parallax-4 {
-  background: url(https://source.unsplash.com/featured/?men);
+  background: url(../assets/img/for_men_section.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
