@@ -1,9 +1,11 @@
 function openModal() {
     document.getElementById('myModal').style.display = "block";
+    document.getElementById('navbar-item').style.display = "none";
 }
 
 function closeModal() {
     document.getElementById('myModal').style.display = "none";
+    document.getElementById('navbar-item').style.display = "block";
 }
 
 var slideIndex = 1;

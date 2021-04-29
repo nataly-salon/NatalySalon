@@ -4,7 +4,7 @@ footer {
 }
 
 body {
-  background: linear-gradient(rgba(29, 30, 37, 0.45), rgba(26, 28, 39, 0.45)), rgba(0, 0, 0, 0.55) url("../assets/img/background_celle.jpg") no-repeat;
+  background: linear-gradient(rgba(29, 30, 37, 0.45), rgba(26, 28, 39, 0.45)), rgba(0, 0, 0, 0.55) url("../assets/img/short-faces-pixie.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -43,7 +43,7 @@ hr.content-divider {
 }
 
 .hero.header {
-  background: linear-gradient(rgba(29, 30, 37, 0.50), rgba(26, 28, 39, 0.50)), rgba(0, 0, 0, 0.55) url("../assets/img/background_celle.jpg") no-repeat;
+  background: linear-gradient(rgba(29, 30, 37, 0.50), rgba(26, 28, 39, 0.50)), rgba(0, 0, 0, 0.55) url("../assets/img/short-faces-pixie.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
