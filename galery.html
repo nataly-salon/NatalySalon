@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/galery.css">
+    <link rel="stylesheet" type="text/css" href="css/galeria.css">
 </head>
 
 <body>
@@ -91,48 +92,85 @@
 
     <section class="section">
         <div class="container is-fluid">
-            <div class="columns">
-                <div class="column">
-                    <img src="https://source.unsplash.com/800x1000/?nature,water" onclick="openModal();currentSlide(1)">
-                    <img src="https://source.unsplash.com/800x550/?nature,water" onclick="openModal();currentSlide(4)">
+            <div class="gallery" id="gallery">
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/about_us_section.jpg""></div>
                 </div>
-                <div class="column">
-                    <img src="https://source.unsplash.com/800x600/?nature,water" onclick="openModal();currentSlide(2)">
-                    <img src="https://source.unsplash.com/800x650/?nature,water" onclick="openModal();currentSlide(5)">
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/balayage_model.JPG" alt=""></div>
                 </div>
-                <div class="column">
-                    <img src="https://source.unsplash.com/800x900/?nature,water" onclick="openModal();currentSlide(3)">
-                    <img src="https://source.unsplash.com/800x700/?nature,water" onclick="openModal();currentSlide(6)">
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
                 </div>
-            </div>
-
-            <div class="modal" id="myModal">
-                <div class="modal-content is-vcentered">
-                    <div class="item-slide">
-                        <img src="https://source.unsplash.com/800x1000/?nature,water">
-                    </div>
-                    <div class="item-slide">
-                        <img src="https://source.unsplash.com/800x600/?nature,water">
-                    </div>
-                    <div class="item-slide">
-                        <img src="https://source.unsplash.com/800x900/?nature,water">
-                    </div>
-                    <div class="item-slide">
-                        <img src="https://source.unsplash.com/800x550/?nature,water">
-                    </div>
-                    <div class="item-slide">
-                        <img src="https://source.unsplash.com/800x650/?nature,water">
-                    </div>
-                    <div class="item-slide">
-                        <img src="https://source.unsplash.com/800x700/?nature,water">
-                    </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
                 </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <button onclick="closeModal()" class="modal-close is-large" aria-label="close"></button>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="content"><img src="assets/img/" alt=""></div>
+                </div>
             </div>
         </div>
-    </section>
+      </section>
 
     <footer class="footer">
         <div class="content has-text-centered">
@@ -143,7 +181,7 @@
     </footer>
 
     <script src="js/jquery.min.js"></script>
-    <script src="js/galery.js"></script>
+    <script src="js/galeria.js"></script>
     <script src="js/nav-burger.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

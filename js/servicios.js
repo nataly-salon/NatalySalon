@@ -1,3 +1,4 @@
+//Permite la rotacion de la seccion donde se describen los servicios
 $(document).ready(function() {
     $('#tabs li').on('click', function() {
       var tab = $(this).data('tab');
